@@ -20,18 +20,24 @@ $(document).ready(function () {
     $("#4 .description").val(localStorage.getItem("4"));
     $("#5 .description").val(localStorage.getItem("5"));
 })
-
+var time = moment();
 // function that will run else if statements to figure out time and apply the color accordingly
 $(".description").each(function () {
     var hours = parseInt(moment().format("H"));
-if(hours = 0 && hours <= 1){
+if(hours > 9 && hours <= 17){
     $(".description").addClass("present");
+    $(".description").removeClass("past");
+    $(".description").removeClass("future");
 }
 else if(hours < 9){
     $(".description").addClass("past");
+    $(".description").removeClass("present");
+    $(".description").removeClass("future");
 }
 else {
     $(".description").addClass("future");
+    $(".description").removeClass("present");
+    $(".description").removeClass("past");
 }
 
 })
