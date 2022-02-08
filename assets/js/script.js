@@ -1,5 +1,3 @@
-var currentDay = document.getElementById("current-day");
-var timeBlock = document.getElementsByClassName("time-block");
 
 // This code prepares the JavaScript to be ready once the Dom is ready
 $(document).ready(function () {
@@ -12,6 +10,8 @@ $(document).ready(function () {
         //set items to local storage.
         localStorage.setItem(hour, todo);
     });
+
+    // pulling all items from localStorage
     $("#9 .description").val(localStorage.getItem("9"));
     $("#10 .description").val(localStorage.getItem("10"));
     $("#11 .description").val(localStorage.getItem("11"));
@@ -24,8 +24,8 @@ $(document).ready(function () {
 
    
 })
-var objDate = new Date();
-var hours = objDate.getHours();
+$(".description").each(function () {
+    var hours = parseInt(moment().format("H"));
 if(hours > 9 && hours <= 17){
     $(".description").addClass("present");
 }
@@ -35,6 +35,8 @@ else if(hours < 9){
 else {
     $(".description").addClass("future");
 }
+
+})
 
 
 

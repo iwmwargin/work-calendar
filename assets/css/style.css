@@ -23,6 +23,7 @@ body {
   
   .description{
     white-space: pre-wrap;
+    text-align: center;
   }
   
   .time-block{
@@ -44,17 +45,17 @@ body {
   
   .past {
     background-color: #d3d3d3;
-    color: white;
+    color: rgb(41, 53, 116);
   }
   
   .present {
     background-color: #ff6961;
-    color: white;
+    color: rgb(27, 28, 29);
   }
   
   .future {
     background-color: #77dd77;
-    color: white;
+    color: rgb(18, 17, 53);
   }
   
   .saveBtn {
