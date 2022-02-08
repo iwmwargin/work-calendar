@@ -1,7 +1,7 @@
 # Work Calendar/Scheduler
 
 ## Purpose
-To provide the user with a scheduler that will help them keep track of tasks they need to accomplish.  It will also let them know if their tasks in the past, present, or future, thanks to the use of Moment js. The user will be able to save their tasks to the website using localStorage.
+To provide the user with a scheduler that will help them keep track of tasks they need to accomplish.  It will also let them know if their tasks in the past, present, or future, (by way of color) thanks to the use of Moment js. The user will be able to save their tasks to the website using localStorage.
 
 ## Built With
 * HTML (Boilerplate provided)
@@ -9,17 +9,17 @@ To provide the user with a scheduler that will help them keep track of tasks the
 * Javascript (Created by me)
 
 ## Issues
-* Still cannot get the color to change properly
+* None that I can see right now! *fingers-crossed*
 
 ## Website
-<a href="" target="_blank">Scheduler</a>
+<a href="https://iwmwargin.github.io/work-calendar/" target="_blank">Scheduler</a>
 
 ## Images of Website
 Top of Schedule
-<img src="https://github.com/iwmwargin/quiz-show/blob/main/assets/images/startQuiz.png">
+<img src="https://github.com/iwmwargin/work-calendar/blob/main/assets/images/Top.png">
 
 Bottom of Schedule
-<img src="https://github.com/iwmwargin/quiz-show/blob/main/assets/images/question.png">
+<img src="https://github.com/iwmwargin/work-calendar/blob/main/assets/images/Bottom.png">
 
 
 
