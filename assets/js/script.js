@@ -21,13 +21,16 @@ $(document).ready(function () {
   $("#17 .description").val(localStorage.getItem("5"));
 });
 
+
 var currentTime = new Date();
+
 let hours = currentTime.getHours();
 
 // function that will run else if statements to figure out time and apply the color accordingly
 $(".time-block").each(function () {
   var time = parseInt($(this).attr("id"))
   
+
   if (time === hours) {
     $(this).addClass("present");
     $(this).removeClass("past");

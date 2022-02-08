@@ -15,10 +15,10 @@ To provide the user with a scheduler that will help them keep track of tasks the
 <a href="" target="_blank">Scheduler</a>
 
 ## Images of Website
-Blank Schedule
+Top of Schedule
 <img src="https://github.com/iwmwargin/quiz-show/blob/main/assets/images/startQuiz.png">
 
-Schedule with Tasks
+Bottom of Schedule
 <img src="https://github.com/iwmwargin/quiz-show/blob/main/assets/images/question.png">
 
 
